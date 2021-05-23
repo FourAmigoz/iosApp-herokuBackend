@@ -13,7 +13,7 @@
     "express": "^4.17.1",
     "fs": "*",
     "websoc-api": "^1.0.0"
-  }
+  },
   "scripts": {
       "start": "node index.js"
   }
