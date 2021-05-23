@@ -11,8 +11,8 @@ app.post('/', async (req, res) => {
         res.status(500).json({error: err.message})
     }
 })
-
-app.listen(process.env.PORT || 8081), () =>console.log(`Example app listening at port :8081`))
+let port = process.env.PORT || 8081
+app.listen(port), () =>console.log(`Example app listening at port:${port}`))
 
 
 
