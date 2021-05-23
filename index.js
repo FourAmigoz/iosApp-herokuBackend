@@ -12,7 +12,7 @@ app.post('/', async (req, res) => {
     }
 })
 let port = process.env.PORT || 8081
-app.listen(port), () =>console.log(`Example app listening at port:${port}`))
+app.listen(port, () =>console.log(`Example app listening at port:${port}`))
 
 
 
